@@ -1,0 +1,15 @@
+.todo-list {
+  color: var(--color-text-neutral);
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    color: var(--color-danger);
+  }
+}
+
+.todo-list.is-done-task {
+  text-decoration: line-through;
+  color: var(--color-done);
+}
