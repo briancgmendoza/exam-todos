@@ -1,0 +1,59 @@
+.form-group {
+  margin-top: 1rem;
+  max-width: 350px;
+  display: flex;
+
+  .form-input {
+    width: 250px;
+    padding: 0.5rem 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .btn-save-todo {
+    padding: 0.5rem 1rem;
+    color: var(--color-white);
+    background-color: var(--color-neutral);
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      color: var(--color-white);
+      background-color: var(--color-save);
+      opacity: 1;
+    }
+
+    &:active {
+      opacity: 1;
+    }
+  }
+}
+
+.btn-container {
+  margin: 2rem 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .btn-clear-all {
+    padding: 0.5rem 1rem;
+    color: var(--color-white);
+    border-radius: 5px;
+    background-color: var(--color-neutral);
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      color: var(--color-white);
+      background-color: var(--color-danger);
+      opacity: 1;
+    }
+
+    &:active {
+      opacity: 1;
+    }
+  }
+}
