@@ -11,3 +11,4 @@ Live demo: https://exam-todos.vercel.app/
 ## Documentation:
 
 To install: Please clone the repo first then on your terminal, yarn install.
+To run: Please see the scripts under package.json, typing yarn start should run the project assuming you're done installing the dependencies.
