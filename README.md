@@ -7,3 +7,7 @@ Todos will be cleared upon page refresh.
 Created based on the exam requirement.
 
 Live demo: https://exam-todos.vercel.app/
+
+## Documentation:
+
+To install: Please clone the repo first then on your terminal, yarn install.
